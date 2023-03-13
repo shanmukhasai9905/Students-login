@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"></link>
+    <link rel="stylesheet" href="webpagedevelop.css"><link>
+    <script src="webpagedevelop.js"></script>
+</head>
+<body style="background-color:azure">
+    <form>
+    <center>
+        <img src="acor.png" style="width:100px;height:50px"></img>
+        <hr>
+        <h4>log In</h4>
+    
+        <h2>using your social network profile</h2>
+        <img src="icon.png"style="width:50px;height:50px">
+        <img src="fbicon.png"style="width:50px;height:50px">
+        <hr>
+    </form>
+        <form>
+        <h4>with yuor email adress</h4>
+        <table>
+            <tr><td>
+        <h2 class="a2"> enter your email</h2></td>
+        </tr>
+        <tr>
+            <td> <h3 class="a2">example@gmail.com</h3></td>
+        </tr>
+        </table>
+        <table>
+       <tr>
+        <td><input placeholder="enter your email" type="email" onkeyup="rajaRani()" id="a1" style="outline: 0px;"></input></td>
+       </tr>
+       </table>
+        <br>
+        <table>
+        <tr>
+            <td> <div>
+                <input placeholder="enter your password"  type="password" id="eye" disabled ></input>
+                <i class="fa fa-eye fa-5px" id="icon" onclick="eyeShowHide()"></i>
+                </div></td>
+        </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+        <td><fieldset><legend>email</legend><input list="abc" placeholder="ENTER COLLEGE NAME" style="border:0px;outline:0px" class="f1">
+        <datalist id="abc"> 
+            <option >SELECT COLLEGE</option>
+            <option>PRG</option>
+            <option>PRG</option>
+        </datalist></fieldset></td></input>
+           
+        </select></input></fieldset></td>
+        <td><fieldset><legend>Qualification</legend><input list="cba" placeholder="ENTER BRANCH" style="border:0px;outline:0px" class="f1"></input>
+            <datalist id="cba"> 
+                <option >SELECT COLLEGE</option>
+                <option>DEGREE</option>
+                <option>B-TECH</option>
+                <option>M-TECH</option>
+                <option>DED</option>
+                <option>BSC</option>
+            </fieldset></td></input>
+                
+                
+            </tr>
+        </table>
+        <br>
+        <table>
+            <tr>
+                <td><input type="file"></td>
+                    <td><input type="button" value="click Here to enter your cgpa"id="btn1" onclick="percentage()"></input></td>         
+            </tr>
+       </table>
+       <strong id="id"></strong>
+       <br>
+       <em id="id1"></em>
+       <br>
+       
+       <div id="raj"></div>
+       <br>
+       <fieldset id="f2">
+       <input type="radio" name="answer" onclick="button()">ABOUT WIPRO</input>
+       <input type="radio" name="answer" onclick="button()">ABOUT INFOSYS</input>
+       <input type="radio" name="answer" onclick="button()">ABOUT DELIOTE</input></fieldset>
+       <br>    
+    </form>        
+    </center>
+   
+</body>
+</html>
