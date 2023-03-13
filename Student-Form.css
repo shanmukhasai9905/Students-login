@@ -1,0 +1,59 @@
+#icon
+{
+    border:black 1px solid;
+	 padding:5px;
+	 border-left:0px;
+	 background-color:white;
+	 
+}
+#eye
+{
+	
+	
+    padding:5px;
+	width:495px;
+	border-left:0px;
+	outline:0px;
+	border:1px solid black;
+	border-right:0px;
+    
+	text-align: center;
+    
+
+   
+
+}
+div{
+    display:flex;  
+}
+#a1
+{
+   
+	width:523px;
+	padding:5px;
+	text-align: center;
+}
+.a2
+{
+	
+	margin-right: 360px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.f1
+{
+	width:231px;
+}
+#f2
+{
+	width:523px;
+}
+.b1
+{
+
+	margin-right: 20px;
+}
+#raj
+{
+	margin-left:300px;
+}
